@@ -2,6 +2,8 @@
 
 A multithreaded ASCII/ANSI Julia fractal viewer with PPM export.
 
+Compile and run with just: cc juliascii.c -Wall -O3 -lpthread -o juliascii && ./juliascii
+
 * Somewhat glitchy multithreading when closely inspecting exported PPMs.
 * Certain character "pallettes" may not be friendly to UTF-8 terminals.
 * Single precision by default, a #define provided for easy configuration.
